@@ -1,55 +1,80 @@
-* {
-    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+body{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.zagolovok {
-    text-align: center;
-   font-size: large;
- }
- .stpicture{
-    position: absolute;
-  top: 100px;
-  right: 400px;
-  }
-.zatext {
-    margin-top: 130px;
-    text-align: center;
-    font-size: large;
+img{
+    border-radius: 15px;
 }
-hr {
-    border-color: gray;
+#img1{
+    float:right;
+    width:250px;
+    height:400px;
+    margin: 10px;
+    position: relative;
+    bottom: 100px;   
 }
-h2 {
-    text-align: center;
-    margin-top: 100px;
-    font-size: large;
+#img2{
+    float:right;
+    margin-left: 6px;
+    width: 200px;
+    height: 200px;
 }
-.opis {
-    font-size: large;
-    text-align: center;
+#img3{
+    float:left;
+    margin-right: 6px;
+    width: 200px;
+    height: 200px;
 }
-.istoriya {
-    text-align: center;
-    margin-top: 21000;
+#img4{
+    float:right;
+    margin-left: 6px;
+    width: 200px;
+    height: 200px;
 }
-.image2 {
-    margin-left: 1800px;
+button{
+    font-size: 16px;
+    color:white;
+    width: 200px;
+    height: 50px;
+    border:0px;
+    border-radius: 15px;
+    background-color: #6600FF;
+    transition-duration: 500ms;
+}
+button:hover{
+    transform: scale(1.2) perspective(1px);
+    transition-duration: 500ms;
+}
+.container{
+    display : flex;
+    justify-content : center;
+}
+.container:not(:first-child){
+    align-content : center;
+    border-top:1px solid rgba(128, 128, 128, 0.158);
 
 }
-p {
-    text-align: center;
-    font-size: large;
+#dgrey{
+    background-color: #bfbebe85;
+    display : flex;
+    justify-content : center;
+    align-content : center;
+    border-top:1px solid rgba(128, 128, 128, 0.158);
 }
-.faq {
-    margin-left: 1900px;
+#descrb{
+    width:620px;
+    margin-bottom:50px;
+    padding-left:50px;
+    padding-right:50px;
+    border: 1px solid grey;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 4px;;
+    margin-top:50px;
 }
-.faq1 {
-    margin-left: 1900px;
-}
-.knopka {
-    margin-left: 1200px;
-}
-.body {
-    width: 50%;
-    position: absolute;
-    left: 40%;
+.content{
+    width:620px;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
